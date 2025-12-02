@@ -14,8 +14,8 @@ This repo contains the initial project structure and documentation for the CS50 
 ## Author & Contact
 - **Name:** Sansebilat Gambo
 - **Github:** https://github.com/<Sebilat>
-- **edX username:** <sansebilatgambo>
-- **Location:** <Blacklick OH, United States>
+- **edX username:** sansebilatgambo
+- **Location:** Blacklick OH, United States
 
 ## Next steps
 1. Implement mood selection UI (animated mood bubbles).
@@ -23,4 +23,4 @@ This repo contains the initial project structure and documentation for the CS50 
 3. Build animated background themes and timer UI.
 4. Add localStorage-based session history and simple analytics.
 5. Prepare demo video and final README for CS50 submission.
-6. 
+
