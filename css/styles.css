@@ -73,9 +73,9 @@
 
 /* Simple floating circle animation */
 @keyframes float {
-    0% {transform: translateY(0px); }
-    50% {transform: translateY(-20px); }
-    100% {transform: translateY(0px); }
+    0% { transform: translateY(0px) translateX(0); }
+    50% { transform: translateY(-20px) translateX(30px); }
+    100% { transform: translateY(0px) translateX(0); }
 }
 
 .floating-circle {
@@ -86,3 +86,21 @@
     position: absolute;
     animation: float 3s ease-in-out infinite;
 }
+
+#floating-circles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* allow clicks to pass through */
+    overflow: hidden;
+}
+
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.3);
+    animation: float 6s ease-in-out infinite;
+}
+
